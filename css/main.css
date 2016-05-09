@@ -15,7 +15,17 @@ body{
     width: 100%;
     color: #FFF;
     border: none;
+        -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 
+}
+
+.menu-color{
+	background-color: #333;
+	border-bottom: 2px solid #F3F3F3;
 }
 
 .navbar-default .navbar-nav li a {
@@ -97,5 +107,11 @@ body{
 		height: 0; 
 		position: absolute; 
 		width: 0; 
-		left: 138px 
+		left: 138px ;
+}
+
+
+footer{
+	padding: 50px 0px;
+	background-color: #F3F3F3;	
 }

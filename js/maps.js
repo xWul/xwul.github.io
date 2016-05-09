@@ -49,7 +49,7 @@ function Points() {
 			infoBox[point.Id].marker = marker;
 			
 			infoBox[point.Id].listener = google.maps.event.addListener(marker, 'click', function (e) {
-				abrirInfoBox(ponto.Id, marker);
+				openInfoBox(point.Id, marker);
 			});
 			
 			markers.push(marker);
@@ -67,3 +67,18 @@ function Points() {
 }
 
 Points();
+
+
+
+
+		$(function(){   
+			var nav = $('.nav-home');   
+			$(window).scroll(function () { 
+				if ($(this).scrollTop() > 100) { 
+					nav.addClass("menu-color"); 
+				} else { 
+					nav.removeClass("menu-color"); 
+				} 
+			});  
+		});
+
