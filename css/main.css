@@ -54,6 +54,13 @@ body{
 	
 }
 
+.header-content h2{
+	font-size: 48px;
+}
+
+.header-content h3{
+	font-size: 28px;
+}
 
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
 	color: #FFF;
