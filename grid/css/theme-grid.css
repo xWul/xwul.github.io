@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+  background-color: #F5F5F5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+section{
+  padding: 3% 0px 0px 0px;
+  float: left;
+  width: 100%;
+}
+
+h2{
+  font-size: 50px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.row{
+    margin: 8px 0px;
+}
+
+.col{
+  padding: 5px;
+  border: 1px solid #FFF;
+  border-radius: 1px;
+  box-sizing: border-box;
+  background-color: #BDBDBD;
+  color: #F5F5F5;
+  font-size: 14px;
+  height: 60px;
+  font-weight: bold;
+}
+
+.grid-header{
+  background-color: #5C6BC0;
+  text-align: center;
+  padding: 10% 0;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), inset 0 1px 20px 4px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.grid-header h1{
+    font-size: 8vw;
+    font-family: 'Indie Flower', cursive;
+    color: #FFF;
+    font-weight: inherit;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: bold;
+  background: transparent;
+  text-transform: uppercase;
+  color: #5C6BC0;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  border: 2px solid #5C6BC0;
+  overflow: hidden;
+  transition: all .5s linear;
+}
+
+.btn:hover {
+  color: #FFF
+
+}
+.btn:hover:before {
+  left: -10px;
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -200%;
+  background: #5C6BC0;
+  height: 100%;
+  width: 120%;
+  transform: skew(-15deg);
+  z-index: -1;
+  transition: all .5s linear;
+}
+
+.code-snippets{
+  background-color: rgba(158, 158, 158, 0.24);
+  border-radius: 4px;
+  padding: 10px;
+  float: left;
+  color: #6D6D6D;
+  font-size: 16px;
+}
+
+.code-snippets .space-1{
+  margin-left: 30px;
+}
