@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #32425a;
+  color: #7e7e7e;
+  font: 400 1em/1.5em "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+a {
+  color: #ce606f;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+h1,
+.h1 {
+  font-size: 2.5em;
+  margin: 0 0 .2em;
+}
+
+h2,
+.h2 {
+  font-size: 1.5em;
+  margin: 0 0 .33em;
+}
+
+h3,
+.h3 {
+  font-size: 1.25em;
+  margin: 0 0 .5em;
+}
+
+p {
+  margin: .5em 0;
+}
+
+svg {
+  height: auto;
+  max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.subline {
+  color: #768191;
+  font-weight: normal;
+}
+
+.container {
+  left: 50%;
+  max-width: 941px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.map {
+  margin-top: 3em;
+  position: relative;
+}
+.map-markers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.map-marker {
+  position: absolute;
+}
+
+.map-marker:hover .map-marker-info {
+  display: block;
+}
+
+.map-marker a {
+  background-color: #ce606f;
+  border-radius: 50%;
+  height: 1em;
+  display: block;
+  text-indent: -9999px;
+  width: 1em;
+}
+
+.map-marker .logo{
+	height: 40px;
+	display: block;
+}
+
+.map-marker .logo-h{
+	height: 50px;
+}
+
+.map-marker-chicago {
+  left: 62%;
+  top: 32%;
+}
+
+.map-marker-detroit{
+  left: 70%;
+  top: 32%;
+}
+
+.map-marker-seattle {
+  left: 5%;
+  top: 0%;
+}
+
+.map-marker-packers {
+  left: 60%;
+  top: 22%;
+}
+
+
+.map-marker-vikings {
+  left: 53%;
+  top: 21%;
+}
+
+.map-marker-falcons {
+  left: 74%;
+  top: 65%;
+}
+
+.map-marker-panthers {
+  left: 83%;
+  top: 53%;
+}
+
+.map-marker-saints{
+	left: 62%;
+	top: 76%;
+}
+
+.map-marker-buccaneers{
+    left: 77%;
+    top: 82%;
+}
+
+.map-marker-cowboys	{
+    left: 46%;
+    top: 66%;
+}
+
+.map-marker-giants{
+    left: 86%;
+    top: 25%;
+}
+
+.map-marker-eagles{
+    left: 88%;
+    top: 35%;
+}
+
+.map-marker-redskins{
+	left: 84%;
+    top: 44%;
+}
+
+.map-marker-cardinals{
+    left: 16%;
+    top: 60%;
+}
+
+.map-marker-rams{
+    left: 3%;
+    top: 54%;
+}
+
+.map-marker-49ers{
+    left: 0%;
+    top: 38%;
+}
+
+.map-marker-ravens{
+     left: 84%;
+    top: 38%;
+}
+
+.map-marker-bengals{
+    left: 73%;
+    top: 41%;
+}
+
+.map-marker-browns{
+    left: 76%;
+    top: 31%;
+}
+
+.map-marker-steelers{
+    left: 81%;
+    top: 32%;
+}
+
+.map-marker-texans{
+    left: 49%;
+    top: 81%;
+}
+
+.map-marker-colts{
+	left: 68%;
+    top: 43%;
+}
+
+
+.map-marker-jaguars{
+    left: 80%;
+    top: 74%;
+}
+
+.map-marker-titans{
+	left: 69%;
+    top: 54%;
+}
+
+.map-marker-bills{
+    left: 79%;
+    top: 25%;
+}
+
+.map-marker-dolphins{
+    left: 82%;
+    top: 90%;
+}
+
+.map-marker-patriots{
+	left: 93%;
+    top: 22%;
+}
+
+.map-marker-jets{
+	left: 90%;
+    top: 29%;
+}
+
+
+.map-marker-broncos{
+    left: 27%;
+    top: 43%;
+}
+
+
+.map-marker-chargers{
+    left: 6%;
+    top: 57%;
+}
+
+
+.map-marker-chiefs{
+	left: 53%;
+    top: 43%;
+}
+
+
+.map-marker-raiders{
+	left: 4%;
+    top: 38%;
+}
+
+
+
+.map-marker-seattle:after {
+  animation-delay: 5s;
+}
+
+.map-marker-info {
+  display: none;
+  left: 50%;
+  position: absolute;
+  bottom: 0;
+  transform: translate(-50%, -2em);
+  width: 20em;
+  z-index: 999;
+}
+.map-marker-info header {
+  background-color: #ce606f;
+  border-radius: .5em .5em 0 0;
+  color: #fff;
+  padding: .5em 1em;
+  text-align: center;
+}
+.map-marker-info main {
+  background-color: #fff;
+  border-radius: 0 0 .5em .5em;
+  color: #7e7e7e;
+  padding: .5em 1em;
+}
+.map-marker-info h2 {
+  margin-bottom: 0;
+}
+.map-marker-info-inner {
+  border-radius: .5em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  font-size: .875em;
+}
+.map-marker-info-inner:after {
+  border-left: .75em solid transparent;
+  border-right: .75em solid transparent;
+  border-top: 1em solid #ce606f;
+  content: '';
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 96%;
+  transform: translateX(-50%);
+  width: 0;
+}
+
+.filter-teams{
+	display: block;
+    height: 50px;
+    margin-top: 25px;
+    right: 13%;
+    z-index: 1000;
+    position: absolute;
+
+}
+
+.filter-teams .logo{
+	width: 40px;
+	cursor: pointer;	
+}
+
+.filter-gray{
+	filter: grayscale(100%);
+}
+
+.filter-teams label{
+	margin-right: 50px;
+}
+
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes bounce-in {
+
+}
+
+.animate-bounce-in {
+  animation-duration: .75s;
+  animation-name: bounce-in;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0);
+  }
+  8% {
+    opacity: .4;
+  }
+  10% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+.animate-pop {
+  animation-duration: 1s;
+  animation-name: pop;
+}

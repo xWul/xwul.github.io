@@ -1,0 +1,94 @@
+*{ padding: 0; margin: 0; box-sizing: border-box; }
+
+.col{ width: 100%; float: left; }
+
+.row{ width: 100%; float: left; }
+
+.container{ width: 100%; padding: 0 5%; float: left; }
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+  .lg-1 {width: 8.33%;}
+  .lg-2 {width: 16.66%;}
+  .lg-3 {width: 25%;}
+  .lg-4 {width: 33.33%;}
+  .lg-5 {width: 41.66%;}
+  .lg-6 {width: 50%;}
+  .lg-7 {width: 58.33%;}
+  .lg-8 {width: 66.66%;}
+  .lg-9 {width: 75%;}
+  .lg-10 {width: 83.33%;}
+  .lg-11 {width: 91.66%;}
+  .lg-12 {width: 100%;}
+
+  .lg-space-12{margin-left:100%}
+  .lg-space-11{margin-left:91.66%}
+  .lg-space-10{margin-left:83.33%}
+  .lg-space-9{margin-left:75%}
+  .lg-space-8{margin-left:66.66%}
+  .lg-space-7{margin-left:58.33%}
+  .lg-space-6{margin-left:50%}
+  .lg-space-5{margin-left:41.66%}
+  .lg-space-4{margin-left:33.33%}
+  .lg-space-3{margin-left:25%}
+  .lg-space-2{margin-left:16.66%}
+  .lg-space-1{margin-left:8.33%}
+}
+
+/* Tablet */
+@media screen and (min-width: 480px) and (max-width: 991px) {
+  .md-1 {width: 8.33%;}
+  .md-2 {width: 16.66%;}
+  .md-3 {width: 25%;}
+  .md-4 {width: 33.33%;}
+  .md-5 {width: 41.66%;}
+  .md-6 {width: 50%;}
+  .md-7 {width: 58.33%;}
+  .md-8 {width: 66.66%;}
+  .md-9 {width: 75%;}
+  .md-10 {width: 83.33%;}
+  .md-11 {width: 91.66%;}
+  .md-12 {width: 100%;}
+
+  .md-space-12{margin-left:100%}
+  .md-space-11{margin-left:91.66%}
+  .md-space-10{margin-left:83.33%}
+  .md-space-9{margin-left:75%}
+  .md-space-8{margin-left:66.66%}
+  .md-space-7{margin-left:58.33%}
+  .md-space-6{margin-left:50%}
+  .md-space-5{margin-left:41.66%}
+  .md-space-4{margin-left:33.33%}
+  .md-space-3{margin-left:25%}
+  .md-space-2{margin-left:16.66%}
+  .md-space-1{margin-left:8.33%}
+}
+
+/* Mobile */
+@media screen and (max-width: 479px) {
+  .sm-1 {width: 8.33%;}
+  .sm-2 {width: 16.66%;}
+  .sm-3 {width: 25%;}
+  .sm-4 {width: 33.33%;}
+  .sm-5 {width: 41.66%;}
+  .sm-6 {width: 50%;}
+  .sm-7 {width: 58.33%;}
+  .sm-8 {width: 66.66%;}
+  .sm-9 {width: 75%;}
+  .sm-10 {width: 83.33%;}
+  .sm-11 {width: 91.66%;}
+  .sm-12 {width: 100%;}
+
+  .sm-space-12{margin-left:100%}
+  .sm-space-11{margin-left:91.66%}
+  .sm-space-10{margin-left:83.33%}
+  .sm-space-9{margin-left:75%}
+  .sm-space-8{margin-left:66.66%}
+  .sm-space-7{margin-left:58.33%}
+  .sm-space-6{margin-left:50%}
+  .sm-space-5{margin-left:41.66%}
+  .sm-space-4{margin-left:33.33%}
+  .sm-space-3{margin-left:25%}
+  .sm-space-2{margin-left:16.66%}
+  .sm-space-1{margin-left:8.33%}
+}
