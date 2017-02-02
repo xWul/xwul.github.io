@@ -2,6 +2,8 @@ const afc = document.getElementById("afc");
 const nfc = document.getElementById("nfc"); 
 const teamsAfc = document.getElementById("teams-afc");
 const teamsNfc = document.getElementById("teams-nfc");
+const gb = document.getElementById("gb");
+const div = document.getElementById("box-team");
 
 afc.onclick = (function(i){
 	if(afc.className == "logo"){
@@ -22,3 +24,8 @@ nfc.onclick = (function(i){
 		nfc.setAttribute("class", "logo");
 	}
 }); 
+
+
+gb.onclick = (function(i){
+	div.setAttribute("class", "box-team animate slideInDown");
+});

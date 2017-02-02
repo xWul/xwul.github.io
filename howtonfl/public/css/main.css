@@ -246,7 +246,6 @@ svg {
     top: 29%;
 }
 
-
 .map-marker-broncos{
     left: 27%;
     top: 43%;
@@ -264,15 +263,12 @@ svg {
     top: 43%;
 }
 
-
 .map-marker-raiders{
 	left: 4%;
     top: 38%;
 }
 
-
-
-.map-marker-seattle:after {
+.map-marker-seattle:after{
   animation-delay: 5s;
 }
 
@@ -282,12 +278,13 @@ svg {
   position: absolute;
   bottom: 0;
   transform: translate(-50%, -2em);
-  width: 20em;
+  width: 15em;
   z-index: 999;
 }
+
 .map-marker-info header {
   background-color: #ce606f;
-  border-radius: .5em .5em 0 0;
+  border-radius: .5em;
   color: #fff;
   padding: .5em 1em;
   text-align: center;
@@ -368,7 +365,51 @@ svg {
     transform: scale(1);
   }
 }
+
 .animate-pop {
   animation-duration: 1s;
   animation-name: pop;
+}
+
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+  display: block!important;
+}
+
+.box-team{
+	display: none;
+	width: 99%;
+    height: 98vh;
+    background-color: #FFF;
+    position: absolute;
+    z-index: 1111;
+    margin: 0.5%;
 }
