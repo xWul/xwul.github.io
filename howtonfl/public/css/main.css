@@ -289,20 +289,24 @@ svg {
   padding: .5em 1em;
   text-align: center;
 }
+
 .map-marker-info main {
   background-color: #fff;
   border-radius: 0 0 .5em .5em;
   color: #7e7e7e;
   padding: .5em 1em;
 }
+
 .map-marker-info h2 {
   margin-bottom: 0;
 }
+
 .map-marker-info-inner {
   border-radius: .5em;
   box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
   font-size: .875em;
 }
+
 .map-marker-info-inner:after {
   border-left: .75em solid transparent;
   border-right: .75em solid transparent;
@@ -318,11 +322,11 @@ svg {
 
 .filter-teams{
 	display: block;
-    height: 50px;
-    margin-top: 25px;
-    right: 13%;
-    z-index: 1000;
-    position: absolute;
+  height: 50px;
+  margin-top: 25px;
+  right: 13%;
+  z-index: 1000;
+  position: absolute;
 
 }
 
@@ -406,10 +410,11 @@ svg {
 
 .box-team{
 	display: none;
-	width: 99%;
-    height: 98vh;
-    background-color: #FFF;
-    position: absolute;
-    z-index: 1111;
-    margin: 0.5%;
+	width: 98%;
+  height: 96vh;
+  background-color: #FFF;
+  position: absolute;
+  z-index: 1111;
+  margin: 1%;
 }
+

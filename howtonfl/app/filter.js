@@ -2,8 +2,7 @@ const afc = document.getElementById("afc");
 const nfc = document.getElementById("nfc"); 
 const teamsAfc = document.getElementById("teams-afc");
 const teamsNfc = document.getElementById("teams-nfc");
-const gb = document.getElementById("gb");
-const div = document.getElementById("box-team");
+const boxTeams = document.querySelector("#box-teams");
 
 afc.onclick = (function(i){
 	if(afc.className == "logo"){
@@ -26,6 +25,16 @@ nfc.onclick = (function(i){
 }); 
 
 
-gb.onclick = (function(i){
-	div.setAttribute("class", "box-team animate slideInDown");
+function getTeamData(e) {
+	boxTeams.classList.add("animate");	
+	boxTeams.classList.add("slideInDown");		 
+}
+
+document.getElementById("btn-close").addEventListener("click", function(){
+   	boxTeams.classList.remove("animate");	
+	boxTeams.classList.remove("slideInDown");
 });
+
+const teams = Array.from(document.querySelectorAll('.map-marker'));
+teams.forEach(team => team.addEventListener('click', getTeamData));
+

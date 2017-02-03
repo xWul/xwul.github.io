@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: #FFF;
+}
+
+a{
+    color: #333;
+    border-bottom: 2px solid rgba(0,0,0,.4);
+    text-decoration: none;
+    transition: border .3s ease-in-out;
+}
+
+a:hover{
+    border-bottom: 2px solid rgba(0,0,0,.1);
+}
+
+.content-main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-main p{
+    color: #333;
+    font-size: 30px;
+     max-width: 60%;
+}
