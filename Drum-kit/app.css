@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.keys{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    height: 70vh;
+    margin: 0px 40px;
+}
+
+.key{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50px;
+    border-radius: 4px;
+    border: 3px solid #505050;
+    transition: all .1s ease;
+}
+
+.key kbd{
+    font-size: 1.3em;
+    color: #505050;
+}
+
+.key span{
+    font-size: 0.7em;
+    color: #4c4b4b;
+}
+
+.playing{
+    border: 3px solid #FFEB3B;
+    transform: scale(1.1);
+}
+
+.playing kbd{
+    color: #FFEB3B;
+}
+
+.controls{
+    margin: 0px 40px;
+}
+
+.controls button{
+     transition: all 0.3s linear;
+}
+
+.record{
+    width: 100%;
+    cursor: pointer;
+    padding: 10px 0px;
+    font-size: 1.4em;
+    border-radius: 4px;
+    color: #505050;
+    border: 3px solid #505050;
+    background-color: transparent;
+}
+
+.recording{
+    background-color: #F44336;
+    color: #FFF;
+    border: 3px solid #FFF;
+}
+
+.stop{
+    background-color: transparent;
+    color: #FFF;
+    border: 3px solid #FFF;
+}
+
+.playingSound{
+    background-color: #FFEB3B;
+    color: #FFF;
+    border: 3px solid #FFF;
+}
