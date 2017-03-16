@@ -36,5 +36,5 @@ document.getElementById("btn-close").addEventListener("click", function(){
 });
 
 const teams = Array.from(document.querySelectorAll('.map-marker'));
-teams.forEach(team => team.addEventListener('click', getTeamData));
+//teams.forEach(team => team.addEventListener('click', getTeamData));
 
