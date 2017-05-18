@@ -34,7 +34,7 @@ a:hover{
 .content-header .intro{
     color: #333;
     font-size: 1.5em;
-    padding-top: 5%; 
+    padding-top: 10%; 
     padding-bottom: 2%;
 }
 
@@ -66,6 +66,10 @@ main .info-content ul{
 main .info-content ul li{
    display: inline-block;
    margin: 0px 5px;
+}
+
+.projects{
+    margin-bottom: 20px;
 }
 
 .projects h2{
